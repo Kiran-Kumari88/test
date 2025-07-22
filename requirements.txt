@@ -1,7 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 streamlit==1.35.0
 openai-whisper
 transformers==4.41.2
-torch==2.1.2
+torch==2.1.2+cpu
+torchaudio==2.1.2+cpu
 moviepy==1.0.3
 imageio-ffmpeg==0.6.0
 numpy==1.24.4
